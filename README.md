@@ -7,9 +7,8 @@ quantitative measure of how different regions of the brain interact with each ot
 ## Table of Contents
 - [Installation and Usage](#Installation-and-Usage)
 - [Methodology](#Methodology)
-- [Results]
-- [Discussion]
-- [Credits and Acknoledgements]
+- [Results and Discussion](#Results-and-Discussion)
+- [Credits and Acknowledgements](#Credits-and-Acknowledgements)
 
 ## Installation and Usage
 To run the programs in the repository is simple. Simply clone the repository into your local directory and you can run the python files located in the repository. Here's a list of the files you can run and what they do:
