@@ -35,4 +35,4 @@ Credit to Muhammad Salman Kabir for [his implementation](https://github.com/5a7m
 
 Special thanks to everyone in the [The Neuromotor Control and Learning (NMCL) Laboratory](https://sph.umd.edu/research-impact/laboratories-projects-and-programs/neuromotor-control-and-learning-laboratory) for their invaluable guidance. 
 
-Finally, special thanks to Arya Teymourlouei for being an incredible mentor and friend!
+Finally, special thanks to Arya Teymourlouei for being an incredible mentor and friend, and helping me with this project.
