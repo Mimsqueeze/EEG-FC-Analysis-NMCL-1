@@ -1,9 +1,8 @@
 # NMCL-Project-1
 
 This repository contains the implementation for a comparative analysis of two different methods of functional connectivity. Functional connectivity is a
-quantitative measure of how different regions of the brain interact with each other, which is to classify between two levels of mental workload. Specifically, we are evaluating the performance of two FC methods, namely phase lag index (PLI) and coherence, in mental workload classification of EEG data. Such EEG data is shown below.
+quantitative measure of how different regions of the brain interact with each other, which is to classify between two levels of mental workload. Specifically, we are evaluating the performance of two FC methods, namely phase lag index (PLI) and coherence, in mental workload classification of EEG data. 
 
-![image](https://github.com/Mimsqueeze/NMCL-Project-1/assets/101283845/4e5ff0a3-e4f0-4ce8-83e8-53ebf8ec8906)
 ## Table of Contents
 - [Installation and Usage](#Installation-and-Usage)
 - [Methodology](#Methodology)
@@ -21,12 +20,12 @@ To run the programs in the repository is simple. Simply clone the repository int
 | `plot results` | Plots the performance of different classifiers in classifying high/low mental workload of EEG data |
 
 ## Methodology
-The methodology behind the project is the following: read in the STEW raw EEG dataset and clean/process the data. Then, compute PLI and coherence features and use those features to classify high vs. low mental workload. Finally, use those results to determine whether the PLI or coherence features were more effective for classification.
+The methodology behind the project is the following: read the STEW raw EEG dataset and clean/process the data. Then, compute PLI and coherence features and use those features to classify high vs. low mental workload. Finally, use those results to determine whether the PLI or coherence features were more effective for classification.
 
 ## Results and Discussion
-We observe from the results that the coherence features were much more effective in classification between two levels of mental workload. Using coherence features alone yielded an “acceptable” accuracy of around 85%, while using only PLI features gave an accuracy of around 65%. This result is consistent across the different ML algorithms we used, namely SVM, RFC, LOG, and MLP. 
+We observe from the results that the coherence features were much more effective in classification between two levels of mental workload. Using coherence features alone yielded an “acceptable” accuracy of around 85% while using only PLI features gave an accuracy of around 65%. This result is consistent across the different ML algorithms we used, namely SVM, RFC, LOG, and MLP. 
 
-However, there were many limitations of the methodology that likely influenced the results. The main limitation/inconsistency is that we did not extract frequency ranges for computing the PLI features like we did for the coherence features, which may help to explain the huge difference between their effectiveness. My next project will definitely take this into account, and compute PLI features for different frequency ranges. I will also look into more methods of functional connectivity, using convolutional neural networks for classification, experimenting with different time intervals, etc.
+However, there were many limitations of the methodology that likely influenced the results. The main limitation/inconsistency is that we did not extract frequency ranges for computing the PLI features as we did for the coherence features, which may help to explain the huge difference between their effectiveness. My next project will definitely take this into account, and compute PLI features for different frequency ranges. I will also look into more methods of functional connectivity, using convolutional neural networks for classification, experimenting with different time intervals, etc.
 
 ## Credits and Acknowledgements
 Credits to Wei Lun Lim, Olga Sourina, Lipo Wang for the [Simultaneous Task EEG Workload Dataset](https://dx.doi.org/10.21227/44r8-ya50) (STEW Dataset). The STEW Dataset consists of raw EEG data from 48 male subjects under rest and workload conditions. The full dataset can be found in this repository inside of the data directory.
