@@ -1,0 +1,9 @@
+Classifier,SVM
+Mean Fit Time,26.41985216140747
+Mean Score Time,0.4242130994796753
+Mean Train Accuracy,0.9206790123456792
+Mean Test Accuracy,0.85
+Mean Train F1,0.9206776457913886
+Mean Test F1,0.8499703175017712
+Mean Train Neg Log Loss,-0.2545406684098707
+Mean Test Neg Log Loss,-0.35302605019461414

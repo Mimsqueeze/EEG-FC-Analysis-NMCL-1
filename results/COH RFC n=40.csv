@@ -1,0 +1,9 @@
+Classifier,RFC n=40
+Mean Fit Time,19.433032202720643
+Mean Score Time,0.09503035545349121
+Mean Train Accuracy,1.0
+Mean Test Accuracy,0.8375
+Mean Train F1,1.0
+Mean Test F1,0.8373463029023089
+Mean Train Neg Log Loss,-0.08699963358623444
+Mean Test Neg Log Loss,-0.3824004570567704

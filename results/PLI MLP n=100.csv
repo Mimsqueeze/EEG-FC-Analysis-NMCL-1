@@ -1,0 +1,9 @@
+Classifier,MLP n=100
+Mean Fit Time,70.78281445503235
+Mean Score Time,0.07606253623962403
+Mean Train Accuracy,0.653125
+Mean Test Accuracy,0.6395833333333333
+Mean Train F1,0.6520118084876544
+Mean Test F1,0.637771043724799
+Mean Train Neg Log Loss,-0.617716554082652
+Mean Test Neg Log Loss,-0.6347524316019235
