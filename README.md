@@ -1,4 +1,4 @@
-# NMCL-Project-1
+# EEG-FC-Analysis-NMCL-1
 
 This repository contains the implementation for a comparative analysis of two different methods of functional connectivity. Functional connectivity is a quantitative measure of how different regions of the brain interact with each other, which is to classify between two levels of mental workload. Specifically, we are evaluating the performance of two FC methods, namely phase lag index (PLI) and coherence, in mental workload classification of EEG data. 
 
